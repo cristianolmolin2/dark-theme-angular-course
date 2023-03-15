@@ -2,11 +2,11 @@
   <img src="./assets/angular.svg" alt="Logo da empresa Angular">
 
   <ul>
-    <li>Home</li>
-    <li>Sobre</li>
+    <li><a [routerLink]="['']">Home</a></li>
+    <li><a [routerLink]="['sobre']">Sobre</a></li>
     <li>
       <button type="button" (click)="toggle()">
-        <img src="./assets/{{ icon }}.svg" alt="Clique aqui e mude o tema para o escuro">
+        <img src="./assets/{{ icon }}.svg" alt="Clique aqui e mude o tema para o {{ textTheme }}">
       </button>
     </li>
   </ul>
