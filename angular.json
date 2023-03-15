@@ -20,6 +20,7 @@
             "outputPath": "dist/dark-theme-angular-course",
             "index": "src/index.html",
             "main": "src/main.ts",
+            "baseHref": "/dark-theme-angular-course/",
             "polyfills": [
               "zone.js"
             ],

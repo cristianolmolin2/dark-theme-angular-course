@@ -1,0 +1,1 @@
+npx angular-cli-ghpages --dir=dist/dark-theme-angular-course
